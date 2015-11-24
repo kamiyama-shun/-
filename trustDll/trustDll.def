@@ -1,0 +1,12 @@
+LIBRARY	trustDll
+
+
+EXPORTS
+	InitializeCbtHook
+	UninitializeCbtHook
+	InitializeShellHook
+	UninitializeShellHook
+    InitializeCallWndProcHook
+    UninitializeCallWndProcHook
+    InitializeGetMsgHook
+    UninitializeGetMsgHook
